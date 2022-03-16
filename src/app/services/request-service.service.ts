@@ -12,7 +12,8 @@ export class RequestServiceService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
   constructor(private http: HttpClient) {
-    this.url = 'http://7602-2a04-ee41-86-f062-5d6e-c6b3-3866-6d87.ngrok.io/testForm';
+    this.url = 'https://7602-2a04-ee41-86-f062-5d6e-c6b3-3866-6d87.ngrok.io/testForm';
+    //this.url = 'http://localhost:8080/testForm'
   }
 
   startSBL(sblStartRequest: SblStartRequest) {

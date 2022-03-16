@@ -206,7 +206,8 @@ class RequestServiceService {
         this.httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({ 'Content-Type': 'application/json' })
         };
-        this.url = 'http://7602-2a04-ee41-86-f062-5d6e-c6b3-3866-6d87.ngrok.io/testForm';
+        this.url = 'https://7602-2a04-ee41-86-f062-5d6e-c6b3-3866-6d87.ngrok.io/testForm';
+        //this.url = 'http://localhost:8080/testForm'
     }
     startSBL(sblStartRequest) {
         return this.http.post(this.url, sblStartRequest, this.httpOptions)

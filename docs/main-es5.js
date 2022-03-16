@@ -386,7 +386,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             'Content-Type': 'application/json'
           })
         };
-        this.url = 'http://7602-2a04-ee41-86-f062-5d6e-c6b3-3866-6d87.ngrok.io/testForm';
+        this.url = 'https://7602-2a04-ee41-86-f062-5d6e-c6b3-3866-6d87.ngrok.io/testForm'; //this.url = 'http://localhost:8080/testForm'
       }
 
       _createClass(RequestServiceService, [{
