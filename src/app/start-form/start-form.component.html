@@ -6,9 +6,9 @@
   </div>
   <div class="form-group">
     <input class="form-control" id="module_id" type="text" placeholder="Modulname" name="module_id" [(ngModel)]="input_module_id" [formControl]="startForm.controls['module_id']" >
-    <p id="startError"></p>
+    <p id="message"></p>
   </div>
-  <button class="btn btn-info" style="background-color: rgba(4,36,108,0.87);" type="submit" [disabled]="!startForm.valid" (click)= "startSBL(input_user_id, input_module_id);">Starten</button>
+  <button class="" style="background-color: lightgrey; border-color: black; color: black" type="submit" [disabled]="!startForm.valid" (click)= "startSBL(input_user_id, input_module_id);">Starten</button>
 </form>
 </body>
 </html>

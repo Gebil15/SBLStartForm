@@ -29,11 +29,12 @@ export class StartFormComponent implements OnInit {
     return this.requestService.startSBL(new SblStartRequest(input_user_id, input_module_id)).subscribe(
       data => {
         console.log(data);
+        document.getElementById('message').innerHTML = data.message;
       },
       error => {
         console.log('not good');
         console.error(error);
-        document.getElementById('startError').innerHTML = 'Etwas ging schief';
+        document.getElementById('message').innerHTML = error.message;
       }
     );
   }
