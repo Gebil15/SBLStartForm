@@ -32,9 +32,8 @@ export class StartFormComponent implements OnInit {
         document.getElementById('message').innerHTML = data.message;
       },
       error => {
-        console.log('not good');
         console.error(error);
-        document.getElementById('message').innerHTML = error.message;
+        document.getElementById('message').innerHTML = error.error.message;
       }
     );
   }
