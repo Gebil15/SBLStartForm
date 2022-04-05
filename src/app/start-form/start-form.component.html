@@ -2,16 +2,19 @@
 <body>
 <form [formGroup]="startForm">
   <div class="form-group">
+    <h4 style="margin-bottom: 5px; margin-top: 10px;">Hinweise:</h4>
+    <p style="margin-bottom: 5px; margin-top: 0px;"> Bitte stellen sie vor dem Starten der Übung sicher, </p>
+    <p style="margin-top: 0px;"> dass keine Rufumleitung aktiv und der Anrufbeantworter ausgeschaltet ist.</p>
+    <p style="margin-bottom: 5px; margin-top: 0px;"> Bitte beenden sie den Anruf nicht, bevor sie vom </p>
+    <p style="margin-top: 0px;"> Trainer das persönliche Feedback erhalten haben.</p>
     <h4 style="margin-bottom: 5px; margin-top: 10px;">Telefonnummer:</h4>
     <input class="form-control" id="user_id" type="text" placeholder="+49703112345" name="user_id" [(ngModel)]="input_user_id" [formControl]="startForm.controls['user_id']" autofocus>
   </div>
   <div class="form-group">
     <h4 style="margin-bottom: 5px; margin-top: 10px;">Modulname:</h4>
     <select matNativeControl required class="form-control" id="module_id" type="text" placeholder="Modulname" name="module_id" [(ngModel)]="input_module_id" [formControl]="startForm.controls['module_id']">
-      <option value="hausbauen" selected>Haus Bauen</option>
-      <option value="modul2">Modul 2</option>
-      <option value="modul3">Modul 3</option>
-      <option value="modul4">Modul 4</option>
+      <option value="begruessung">Modul 1 Aufgabe Begrüssung</option>
+      <option value="anliegen">Modul 1 Aufgabe Anliegen klären und lösen</option>
     </select>
     <p id="message"></p>
   </div>
