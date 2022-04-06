@@ -510,9 +510,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     StartFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: StartFormComponent,
       selectors: [["app-start-form"]],
-      decls: 28,
+      decls: 30,
       vars: 6,
-      consts: [[3, "formGroup"], [1, "form-group"], [2, "margin-bottom", "5px", "margin-top", "10px"], [2, "margin-bottom", "5px", "margin-top", "0px"], [2, "margin-top", "0px"], ["id", "user_id", "type", "text", "placeholder", "+49703112345", "name", "user_id", "autofocus", "", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["matNativeControl", "", "required", "", "id", "module_id", "type", "text", "placeholder", "Modulname", "name", "module_id", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["value", "begruessung"], ["value", "anliegen"], ["id", "message"], ["type", "submit", 1, "", 2, "background-color", "lightgrey", "border-color", "black", "color", "black", 3, "disabled", "click"]],
+      consts: [[3, "formGroup"], [1, "form-group"], [2, "margin-bottom", "5px", "margin-top", "10px"], [2, "margin-bottom", "5px", "margin-top", "0px"], [2, "margin-top", "0px"], ["id", "user_id", "type", "text", "placeholder", "+49703112345", "name", "user_id", "autofocus", "", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["matNativeControl", "", "required", "", "id", "module_id", "type", "text", "placeholder", "Modulname", "name", "module_id", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["value", "begruessung"], ["value", "anliegen"], ["value", "questiongame"], ["id", "message"], ["type", "submit", 1, "", 2, "background-color", "lightgrey", "border-color", "black", "color", "black", 3, "disabled", "click"]],
       template: function StartFormComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html");
@@ -595,19 +595,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "option", 9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Modul 3 Aufgabe Fragetypen erkennen");
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "p", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "p", 10);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "button", 10);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "button", 11);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartFormComponent_Template_button_click_26_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartFormComponent_Template_button_click_28_listener() {
             return ctx.startSBL(ctx.input_user_id, ctx.input_module_id);
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Starten");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Starten");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -631,7 +637,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.input_module_id)("formControl", ctx.startForm.controls["module_id"]);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", !ctx.startForm.valid);
         }
