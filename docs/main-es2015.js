@@ -267,7 +267,7 @@ class StartFormComponent {
     }
 }
 StartFormComponent.ɵfac = function StartFormComponent_Factory(t) { return new (t || StartFormComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_request_service_service__WEBPACK_IMPORTED_MODULE_3__["RequestServiceService"])); };
-StartFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartFormComponent, selectors: [["app-start-form"]], decls: 42, vars: 6, consts: [[3, "formGroup"], [1, "form-group"], [2, "margin-bottom", "5px", "margin-top", "10px"], [2, "margin-bottom", "5px", "margin-top", "0px"], [2, "margin-top", "0px"], ["id", "user_id", "type", "text", "placeholder", "+49703112345", "name", "user_id", "autofocus", "", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["matNativeControl", "", "required", "", "id", "module_id", "type", "text", "placeholder", "Modulname", "name", "module_id", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["value", "begruessung"], ["value", "anliegen"], ["value", "mirrorgame"], ["value", "questiongame"], ["id", "message"], ["type", "submit", 1, "", 2, "background-color", "lightgrey", "border-color", "black", "color", "black", 3, "disabled", "click"]], template: function StartFormComponent_Template(rf, ctx) { if (rf & 1) {
+StartFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartFormComponent, selectors: [["app-start-form"]], decls: 44, vars: 6, consts: [[3, "formGroup"], [1, "form-group"], [2, "margin-bottom", "5px", "margin-top", "10px"], [2, "margin-bottom", "5px", "margin-top", "0px"], [2, "margin-top", "0px"], ["id", "user_id", "type", "text", "placeholder", "+49703112345", "name", "user_id", "autofocus", "", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["matNativeControl", "", "required", "", "id", "module_id", "type", "text", "placeholder", "Modulname", "name", "module_id", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["value", "begruessung"], ["value", "anliegen"], ["value", "repetitiongame"], ["value", "mirrorgame"], ["value", "questiongame"], ["id", "message"], ["type", "submit", 1, "", 2, "background-color", "lightgrey", "border-color", "black", "color", "black", 3, "disabled", "click"]], template: function StartFormComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "body");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "form", 0);
@@ -319,20 +319,23 @@ StartFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Modul 1 Aufgabe Anliegen kl\u00E4ren und l\u00F6sen");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "option", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Modul 2 Aufgabe Spiegeln");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Modul 2 Aufgabe Paraphrasieren");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "option", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Modul 3 Aufgabe Fragetypen erkennen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Modul 2 Aufgabe Spiegeln");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "option", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Modul 5 Aufgabe Anrufbeantworter");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "option", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Modul 3 Aufgabe Fragetypen erkennen");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "option", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Modul 5 Aufgabe Anrufbeantworter");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "p", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "p", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "button", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartFormComponent_Template_button_click_40_listener() { return ctx.startSBL(ctx.input_user_id, ctx.input_module_id); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Starten");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "button", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartFormComponent_Template_button_click_42_listener() { return ctx.startSBL(ctx.input_user_id, ctx.input_module_id); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Starten");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -344,7 +347,7 @@ StartFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.input_user_id)("formControl", ctx.startForm.controls["user_id"]);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.input_module_id)("formControl", ctx.startForm.controls["module_id"]);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", !ctx.startForm.valid);
     } }, directives: [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControlDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["RequiredValidator"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_x"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3N0YXJ0LWZvcm0vc3RhcnQtZm9ybS5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](StartFormComponent, [{
