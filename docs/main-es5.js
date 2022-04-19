@@ -510,9 +510,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     StartFormComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
       type: StartFormComponent,
       selectors: [["app-start-form"]],
-      decls: 44,
+      decls: 47,
       vars: 6,
-      consts: [[3, "formGroup"], [1, "form-group"], [2, "margin-bottom", "5px", "margin-top", "10px"], [2, "margin-bottom", "5px", "margin-top", "0px"], [2, "margin-top", "0px"], ["id", "user_id", "type", "text", "placeholder", "+49703112345", "name", "user_id", "autofocus", "", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["matNativeControl", "", "required", "", "id", "module_id", "type", "text", "placeholder", "Modulname", "name", "module_id", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["value", "begruessung"], ["value", "anliegen"], ["value", "repetitiongame"], ["value", "mirrorgame"], ["value", "questiongame"], ["id", "message"], ["type", "submit", 1, "", 2, "background-color", "lightgrey", "border-color", "black", "color", "black", 3, "disabled", "click"]],
+      consts: [[3, "formGroup"], [1, "form-group"], [2, "margin-bottom", "5px", "margin-top", "10px"], [2, "margin-bottom", "5px", "margin-top", "0px"], [2, "margin-top", "0px"], [2, "margin-bottom", "5px", "margin-top", "5px"], ["id", "user_id", "type", "text", "placeholder", "+49703112345", "name", "user_id", "autofocus", "", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["matNativeControl", "", "required", "", "id", "module_id", "type", "text", "placeholder", "Modulname", "name", "module_id", 1, "form-control", 3, "ngModel", "formControl", "ngModelChange"], ["value", "begruessung"], ["value", "anliegen"], ["value", "repetitiongame"], ["value", "mirrorgame"], ["value", "questiongame"], ["id", "message"], ["type", "submit", 1, "", 2, "background-color", "lightgrey", "border-color", "black", "color", "black", 3, "disabled", "click"]],
       template: function StartFormComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "html");
@@ -553,15 +553,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Bei Aufgabe ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Bei ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "b");
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Modul 5");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Aufgabe Anrufbeantworter");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " bitte Anrufbeantworter aktivieren. ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " bitte den Anrufbeantworter aktivieren. ");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -577,15 +577,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "h4", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Telefonnummer:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "b");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "Telefonnummer:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "input", 5);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function StartFormComponent_Template_input_ngModelChange_24_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p", 5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "(Die bereits voreingegebene Nummer dient nur als Beispiel und kann einfach \xFCbertippt werden)");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "input", 6);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function StartFormComponent_Template_input_ngModelChange_27_listener($event) {
             return ctx.input_user_id = $event;
           });
 
@@ -593,69 +603,69 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "h4", 2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "h4", 2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Modulname:");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Modulname:");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "select", 6);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "select", 7);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function StartFormComponent_Template_select_ngModelChange_28_listener($event) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function StartFormComponent_Template_select_ngModelChange_31_listener($event) {
             return ctx.input_module_id = $event;
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "option", 7);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "option", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Modul 1 Aufgabe Begr\xFCssung");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "option", 8);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Modul 1 Aufgabe Anliegen kl\xE4ren und l\xF6sen");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Aufgabe Begr\xFCssung");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "option", 9);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "option", 9);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Modul 2 Aufgabe Paraphrasieren");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "option", 10);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Modul 2 Aufgabe Spiegeln");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Aufgabe Anliegen kl\xE4ren und l\xF6sen");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "option", 11);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "option", 10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Modul 3 Aufgabe Fragetypen erkennen");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "option", 7);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Modul 5 Aufgabe Anrufbeantworter");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Aufgabe Paraphrasieren");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "option", 11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Aufgabe Spiegeln");
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "p", 12);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "option", 12);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Aufgabe Fragetypen erkennen");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "button", 13);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "option", 8);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartFormComponent_Template_button_click_42_listener() {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Aufgabe Anrufbeantworter");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](44, "p", 13);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "button", 14);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartFormComponent_Template_button_click_45_listener() {
             return ctx.startSBL(ctx.input_user_id, ctx.input_module_id);
           });
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Starten");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Starten");
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -671,7 +681,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("formGroup", ctx.startForm);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](22);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](25);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.input_user_id)("formControl", ctx.startForm.controls["user_id"]);
 
