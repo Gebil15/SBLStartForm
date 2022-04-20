@@ -9,8 +9,8 @@
     <p style="margin-bottom: 5px; margin-top: 0px;"> Bitte beenden sie den Anruf nicht, bevor sie vom </p>
     <p style="margin-top: 0px;"> Trainer das persönliche Feedback erhalten haben.</p>
     <p style="margin-bottom: 5px; margin-top: 10px;"><b>Telefonnummer:</b>  </p>
-    <p style="margin-bottom: 5px; margin-top: 5px;">(Die bereits voreingegebene Nummer dient nur als Beispiel und kann einfach übertippt werden)</p>
-    <input class="form-control" id="user_id" type="text" placeholder="+49703112345" name="user_id" [(ngModel)]="input_user_id" [formControl]="startForm.controls['user_id']" autofocus>
+    <input class="form-control" id="user_id" type="text" name="user_id" [(ngModel)]="input_user_id" [formControl]="startForm.controls['user_id']" autofocus>
+    <p style="margin-bottom: 5px; margin-top: 5px;">Beispiel: +49703112345</p>
   </div>
   <div class="form-group">
     <h4 style="margin-bottom: 5px; margin-top: 10px;">Modulname:</h4>
