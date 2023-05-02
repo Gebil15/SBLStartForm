@@ -13,7 +13,8 @@ export class RequestServiceService {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
   constructor(private http: HttpClient) {
-    this.url = 'https://sbl-trainer-backend.eu.ngrok.io/sblStartCall';
+    this.url = 'http://localhost:8080/ciStartCall';
+    //this.url = 'http://localhost:8080/generateAnswer';
   }
 
   startSBL(sblStartRequest: SblStartRequest) {
