@@ -11,11 +11,17 @@
     <p style="margin-bottom: 5px; margin-top: 10px;"><b>Telefonnummer:</b>  </p>
     <input class="form-control" id="user_id" type="text" name="user_id" [(ngModel)]="input_user_id" [formControl]="startForm.controls['user_id']" autofocus>
     <p style="margin-bottom: 5px; margin-top: 5px;">Beispiel: +49703112345</p>
+    <p style="margin-bottom: 5px; margin-top: 10px;"><b>Name:</b>  </p>
+    <input class="form-control" id="name" type="text" name="name" [(ngModel)]="input_name" [formControl]="startForm.controls['name']" autofocus>
+    <p style="margin-bottom: 5px; margin-top: 5px;">Beispiel: Thomas</p>
+    <p style="margin-bottom: 5px; margin-top: 10px;"><b>Geschlecht:</b>  </p>
+    <input class="form-control" id="gender" type="text" name="gender" [(ngModel)]="input_gender" [formControl]="startForm.controls['gender']" autofocus>
+    <p style="margin-bottom: 5px; margin-top: 5px;">Beispiel: male</p>
   </div>
   <div class="form-group">
     <h4 style="margin-bottom: 5px; margin-top: 10px;">Modulname:</h4>
     <select matNativeControl required class="form-control" id="module_id" type="text" placeholder="Modulname" name="module_id" [(ngModel)]="input_module_id" [formControl]="startForm.controls['module_id']">
-      <option value="citizensimulation">Bürger Simulation</option>
+      
       <option value="cigreetings">Modul 2, Aufgabe 1: Begrüssung</option>
       <option value="ciissuesolving">Modul 2, Aufgabe 2: Anliegen klären und lösen</option>
       <option value="ciactivelistening">Modul 3, Übung 1: Aktives Zuhören</option>
@@ -27,10 +33,14 @@
       <option value="ciservicesecond">Modul 6, Übung 1: Service am Telefon - Teil 2</option>
       <option value="ciservice2">Modul 6, Übung 2: Service am Telefon</option>
       <option value="ciservice3">Modul 6, Übung 3: Service am Telefon</option>
+      
       <option value="ciservice4">Modul 6, Übung 4: Service am Telefon</option>
+      
+      
+      <option value="citizensimulation">Bürger Simulation</option>
       <option value="modulereflection">Modul Reflexion</option>
 
-
+      
       <option value="begruessung">Aufgabe Begrüssung</option>
       <option value="anliegen">Aufgabe Anliegen klären und lösen</option>
       <option value="repetitiongame">Aufgabe Paraphrasieren</option>
@@ -40,7 +50,8 @@
     </select>
     <p id="message"></p>
   </div>
-  <button class="" style="background-color: lightgrey; border-color: black; color: black" type="submit" [disabled]="!startForm.valid" (click)= "startSBL(input_user_id, input_module_id);">Starten</button>
+  <button class="" style="background-color: lightgrey; border-color: black; color: black" type="submit" [disabled]="!startForm.valid" (click)= "startSBL(input_user_id, input_module_id);">SBL Starten</button>
+  <button class="" style="background-color: lightgrey; border-color: black; color: black" type="submit" [disabled]="!startForm.valid" (click)= "startCI(input_user_id, input_module_id, input_gender, input_name);">CI Starten</button>
 </form>
 </body>
 </html>
